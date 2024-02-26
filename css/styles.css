@@ -1,0 +1,138 @@
+/* Resetting default margin and padding for all elements */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting default font for the website */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Background color for the entire website */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Container styling to set width and center the page */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    /* display: inline-block; */
+    /* background: linear-gradient(to right, #614872, #02ff70); */
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+/* Main content styling */
+main {
+    display: block;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading font sizes and color */
+/* h1,
+h2,
+h3 {
+    font-size: 24px;
+} */
+
+h1 {
+    color: #ffffff;
+    /* Change color for h1 */
+    font-size: 82px;
+}
+
+/* List item styling */
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+/* Product of the Week styling */
+#product-of-the-week img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Weekly Sales styling */
+#weekly-sales .sales-item {
+    margin-top: 15px;
+}
+
+#weekly-sales img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Customer Guarantee styling */
+#customer-guarantee img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Reasons to Buy styling */
+#reasons-to-buy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.reason {
+    text-align: center;
+    width: 200px;
+    margin: 15px 0;
+}
+
+.reason img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+/* Footer styling */
+footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Other styles - Experiment and be creative */
+/* For example, you can add styles for links, images, etc. */
